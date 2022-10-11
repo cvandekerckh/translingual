@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "translingual"
+version = "0.1.0"
+description = ""
+authors = ["Corentin Vande Kerckhove <corentinvdk@gmail.com>"]
+license = "MIT Licence"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.0"
+jupyter = "^1.0.0"
+scikit-learn = "^1.1.2"
+ipykernel = "^6.16.0"
+spacy = "^3.4.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
