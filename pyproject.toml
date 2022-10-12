@@ -12,6 +12,7 @@ jupyter = "^1.0.0"
 scikit-learn = "^1.1.2"
 ipykernel = "^6.16.0"
 spacy = "^3.4.1"
+seaborn = "^0.12.0"
 
 [tool.poetry.dev-dependencies]
 ipython = "^8.5.0"
